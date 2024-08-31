@@ -55,7 +55,7 @@ function Login() {
               type="password"
             />
           </div>
-          <button className="login-button">Login</button>
+          <input type = "submit" className="login-button" value = "Login" />
         </div>
 
         <div className="right">
@@ -105,7 +105,7 @@ function Login() {
               name = "email"
             />
           </div>
-          <button className="login-button">Create</button>
+          <input type = "submit" className="login-button" value = "Create"/>
         </div>
       </div>
       <div className="footer"></div>
