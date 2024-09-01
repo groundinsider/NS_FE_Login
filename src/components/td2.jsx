@@ -13,11 +13,11 @@ function useInput(){
 }
 
 function Tmd(){
-  const[input, onChange] = useState();
+  const[input, onChange] = useState("");
 
 
   useEffect((function(){
-    
+    onChange("td");
   }),[]);
 
 
