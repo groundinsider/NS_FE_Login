@@ -55,18 +55,19 @@ body {
   padding: 12px;
   margin: 10px 0;
   border-radius: 10px;
-  border: 1px solid #cccccc;
-  background-color: #dcdcdc;
+  border: 1px solid #8D8F90;
+  background-color: #ffffff;
   color: #666666;
   box-sizing: border-box;
   font-size: 14px;
+  font-weight: bold;
   transition: 0.5s;
 }
 
 .login-button {
   width: 100%;
   padding: 12px;
-  background-color: #617798;
+  background-color: #0D3F7A;
   color: white;
   border: none;
   border-radius: 10px;
