@@ -15,11 +15,12 @@ body {
 
 .header {
   width: 100%;
-  height: 50px;
-  background-color: #0d2d63;
+  height: 80px;
+  background-color: #ffffff;
   color: white;
   font-size: 30px;
   text-align: left;
+  border-bottom: rgb(211, 211, 211) solid 1px;
   display: flex;
   align-items: center;
   justify-content: left; 
@@ -28,7 +29,7 @@ body {
 
 .login-box {
   width: 80%;
-  max-width: 800px;
+  max-width: 850px;
   min-width: 500px;
   background-color: #f0f0f0;
   padding: 40px;
@@ -52,7 +53,7 @@ body {
 
 .set_data {
   width: 100%;
-  padding: 12px;
+  padding: 15px;
   margin: 10px 0;
   border-radius: 10px;
   border: 1px solid #8D8F90;
@@ -66,12 +67,13 @@ body {
 
 .login-button {
   width: 100%;
-  padding: 12px;
+  padding: 15px;
   background-color: #0D3F7A;
   color: white;
   border: none;
   border-radius: 10px;
   font-size: 14px;
+  font-weight: bold;
   cursor: pointer;
   margin-top: 20px;
 }
@@ -82,7 +84,7 @@ body {
 
 .footer {
   width: 100%;
-  height: 50px;
+  height: 80px;
   background-color: #333a47;
   display: flex;
   align-items: center; 
