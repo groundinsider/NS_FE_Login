@@ -24,13 +24,6 @@ function Login() {
     });
   }
 
-  function onChangeUser(e){
-    setUser({
-      ...user,
-      [e.target.name]: e.target.value
-    });
-  }
-
   return (
     <Container>
       <Header>Login</Header>
