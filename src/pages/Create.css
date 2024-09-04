@@ -41,16 +41,6 @@ body {
   margin: 20px 0; 
 }
 
-.login-box::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 6px;
-  bottom: 6px;
-  width: 1px;
-  background-color: #ccc;
-}
-
 .set_data {
   width: 100%;
   padding: 15px;
@@ -76,10 +66,6 @@ body {
   font-weight: bold;
   cursor: pointer;
   margin-top: 20px;
-}
-
-.left, .right {
-  width: 48%;
 }
 
 .footer {
