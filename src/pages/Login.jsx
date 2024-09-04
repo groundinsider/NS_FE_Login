@@ -9,14 +9,6 @@ function Login() {
     name: "",
   })
 
-  const [user, setUser] = useState({
-    studentId: "",
-    name: "",
-    password: "",
-    phoneNumber: "",
-    email: "",
-  })
-
   function onChangeInput(e) {
     setInput({
       ...input,
